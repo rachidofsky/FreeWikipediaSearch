@@ -1,0 +1,103 @@
+
+h1{
+  font-size: 2.5em;
+  
+}
+a {
+  color: white;
+}
+a:hover{
+  color: blue;
+}
+
+
+.container {
+  margin: 130px 50px 30px 50px;
+  text-align: center;
+
+}
+
+body:after {
+    content : "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("http://s2.glbimg.com/32UJCUwdXYskBQt00wcrcqFKylA=/1200x630/s.glbimg.com/jo/g1/f/original/2016/01/15/wikipedia-1700-1700_editado-1.jpg"); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.05;
+    z-index: -1;
+}
+body {
+  background-color: #011;
+  color: #999;
+}
+.resBack{
+  border:double 6px silver;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+}
+.search {
+  display: inline-block;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 4px #FFF;
+  border: 1px solid #FFF;
+}
+
+.search:before {
+  content: '';
+  width: 5px;
+  height: 12px;
+  position: absolute;
+  right: -1px;
+  bottom: -4px;
+  border-radius: 0 0 10px 10px;
+  background: #FFF;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.search .inner {
+  min-width: 24px;
+  height: 24px;
+  margin: 4px;
+  outline: 0;
+  border: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search .inner input {
+  width: 4px;
+  height: 100%;
+  font-weight: 300;
+  text-indent: 50px;
+  outline: 0;
+  border: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: none;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.search .inner input:focus {
+  width: 190px;
+  text-indent: 0;
+  cursor: text;
+}
+
+.search .inner input::-webkit-input-placeholder {
+  color: #bbb;
+}
+footer{
+  font-size: 0.7em;
+}
